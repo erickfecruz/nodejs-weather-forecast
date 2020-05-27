@@ -1,0 +1,116 @@
+body {
+    color: #333333;
+    font-family: arial;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header {
+    margin-top: 7px;
+    border-top: 6px solid #0c004d;
+    border-bottom: 6px solid #0c004d;
+    text-align: center;
+}
+
+h1 {
+    color: #0c004d;
+    font-size: 65px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.help-text {
+    font-size: 21px;
+    text-align: center;
+}
+
+.help-option {
+    font-size: 21px;
+    text-align: center;
+    list-style: inside;
+}
+
+.page-selection a {
+    color: #888888;
+    font-size: 25px;
+    margin-right: 28px;
+    text-decoration: none;
+}
+
+.page-selection a:hover {
+    text-decoration: none;
+    color: #0c004d;
+}
+
+.page-selection {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.blank-space-header {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border-bottom: 4px solid #0c004d;
+}
+
+.portrait {
+    width: 250px;
+    margin-bottom: 5px;
+}
+
+.weather-text {
+    font-size: 21px;
+    text-align: center;
+}
+
+.about-text {
+    font-size: 21px;
+    text-align: center;
+}
+
+.about-text a {
+    font-size: 21px;
+    color: #888888;
+    text-decoration: none;
+}
+
+.about-text a:hover {
+    text-decoration: none;
+    color: #0c004d;
+}
+
+.about-me {
+    text-align: center;
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+}
