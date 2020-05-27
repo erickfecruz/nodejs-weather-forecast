@@ -2,7 +2,7 @@ const request = require('postman-request')
 
 // Using WeatherStack API
 // Insert your API Key here: 
-const key = ''
+const key = 'd25c649774737cb673d29c132573c954'
 
 const getForecast = (address, callback) => {
 

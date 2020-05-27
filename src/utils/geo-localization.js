@@ -2,7 +2,7 @@ const request = require('postman-request')
 
 // Using Mapbox API
 // Insert your API Key here: 
-const key = ''
+const key = 'pk.eyJ1IjoiZXJpY2tmZWNydXoiLCJhIjoiY2thbDZyZTFhMHRqcjJwcGU3MWR5dXg0MyJ9.WtdbsuMvO6hJDVFtjjZbAA'
 
 const getLocal = (address, callback) => {
     
